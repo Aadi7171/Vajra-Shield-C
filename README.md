@@ -6,8 +6,23 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows-informational?style=flat-square&logo=windows)](https://github.com/Aadi7171/Vajra-Shield-C)
 [![Build](https://img.shields.io/badge/Build-MinGW%2FGCC-success?style=flat-square)](https://github.com/Aadi7171/Vajra-Shield-C/blob/main/build.bat)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-00e5ff?style=flat-square&logo=github)](https://aadi7171.github.io/Vajra-Shield-C/)
 
 **Vajra-Shield** is an edge-AI terminal simulation of a real-time personal safety blackbox, written entirely in **pure C**. It models the core safety intelligence that would run on a low-power wearable device — detecting danger silently, without relying on the victim to press any button.
+
+---
+
+## 🌐 Live Demo
+
+> **[▶ Try the Interactive Demo →](https://aadi7171.github.io/Vajra-Shield-C/)**
+
+An interactive web simulation featuring:
+- 🛡️ **3D animated shield model** — drag to rotate, reacts to sensor state
+- 📊 **Live sensor feeds** — heart rate, accelerometers, threat level
+- ⚠️ **Scenario simulations** — normal, jogging, attack, adrenaline-stillness
+- 🔐 **Duress PIN keypad** — try `1234` (safe) or `4321` (silent SOS!)
+- 📡 **Bluetooth sweep** — animated MAC address discovery
+- 🗄️ **Forensic vault** — SHA-256 hash generation
 
 ---
 
@@ -43,7 +58,10 @@ Vajra-Shield-C/
 │   ├── bluetooth_sweeper.c/.h    # MAC address environment sweep
 │   ├── forensic_vault.c/.h       # Data hashing & secure vault logic
 │   └── utils.c/.h                # Shared utilities
+├── docs/
+│   └── index.html                # Interactive web demo (GitHub Pages)
 ├── build.bat                     # One-click build script (Windows)
+├── LICENSE
 └── README.md
 ```
 
